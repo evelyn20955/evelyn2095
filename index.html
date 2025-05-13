@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang ="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>MI PAGINA PERSONAL </title>
+    </head>
+    </body>
+       <!-- 1. Encabezado -->
+        <header>
+
+        <h1>EVELYN NAYELY SISA SISA</h1>
+
+        <P>“A veces lo más difícil en programación no es encontrar errores sino descubrir cuál fue nuestro error original”– John Carmack<p/>
+  
+        <hr/>
+        
+        <img width="180px" alt="esto es una persona" src="img/evelyn.jpg" />
+    </header>
+    
+       <hr/>
+     <!--2. menu de navegacion  -->
+
+     <nav>
+       <a href="#sobremi">Sobre mí</a>
+       <a href="#intereses">Intereses</a>
+       <a href="#habilidades">Habilidades</a>
+       <a href="#multimedia">Multimedia</a>
+       <a href="#contacto">Contacto</a>
+    </nav>   
+
+    <!--3. Seccion sobre mi -->
+    <section id="sobremi">
+       <h2>Sobre mí</h2>
+       <p>Soy <strong> Evelyn Sisa </strong>,una estudiante <em>que desea</em> <mark>aprender a desarrollar paginas web </mark>,y tambien me encanta aprender cosas nuevas y trabajar en equipo.</p>
+    </section>  
+    
+    <!-- 4. Lista de intereses o logros -->
+  <section id="intereses">
+    <h2>Mis intereses</h2>
+    <ul>
+      <li>Programación</li>
+      <li>Diseño gráfico</li>
+      <li>Inteligencia Artificial</li>
+      <li>Videojuegos</li>
+    </ul>
+  </section>
+
+  <!-- 5. Tabla de habilidades -->
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <table>
+      <thead>
+       <tr>
+         <th >Habilidades</th>
+         <th >Nivel</th>
+
+       </tr>
+     </thead>
+     <tr>
+    
+        <td>Trabajo en equipo</td>
+          <td>Intermedio</td>
+        </tr>
+        <tr>
+          <td>Responsabilidad</td>
+          <td>Avanzado</td>
+        </tr>
+        <tr>
+          <td>Comunicacion</td>
+          <td>Avanzado</td>
+        </tr>
+      </tbody>
+    </table>
+<body>
+   
+            <!-- 6. Multimedia -->
+  <section id="multimedia">
+    <h2>Presentación en video</h2>
+    <video width="320" height="240" controls
+       <source src="video.mp4" type="video/mp4">
+    </video> 
+    </section>
+     <!-- 7. Formulario de contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Correo:</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" min="1" max="120" required>
+
+      <label for="genero">Género:</label>
+      <select id="genero" name="genero" required>
+        <option value="">Selecciona</option>
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+        <option value="otro">Otro</option>
+      </select>  
+       <!-- 8. Pie de página -->
+  <footer>
+    <p>&copy; 2025 Evelyn Sisa. Todos los derechos reservados.</p>
+    <p>
+      <a href="https://facebook.com" target="_blank">Evelyn Sisa</a> |
+      <a href="https://instagram.com" target="_blank">evelynsisa86</a>
+    </p>
+  </footer>
+
+</body>
+</html>
